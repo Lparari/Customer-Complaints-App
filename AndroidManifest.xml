@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.terlux.malaso">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/consumer"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NavViewerActivity"></activity>
+        <activity android:name=".NavActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".TransportViewerActivity" />
+        <activity android:name=".ServiceViewerActivity" />
+        <activity android:name=".QualityViewerActivity" />
+        <activity android:name=".DeliveryViewerActivity" />
+        <activity android:name=".AvailabilityViewerActivity" />
+        <activity android:name=".AmountViewerActivity" />
+        <activity android:name=".PackageViewerActivity" />
+        <activity android:name=".PriceViewerActivity" />
+        <activity android:name=".AvailabilityActivity" />
+        <activity android:name=".ServiceActivity" />
+        <activity android:name=".AmountActivity" />
+        <activity android:name=".QualityActivity" />
+        <activity android:name=".TransportActivity" />
+        <activity android:name=".DeliveryActivity" />
+        <activity android:name=".PackageActivity" />
+        <activity android:name=".PriceActivity" />
+        <activity android:name=".PrivacyPolicyActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".AdvertActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ComplaintActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
